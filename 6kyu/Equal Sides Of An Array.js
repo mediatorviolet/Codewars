@@ -53,6 +53,11 @@ const findEvenIndex = (arr) => {
     return -1;
 };
 
+// Other solution
+
+// const sum = (arr, from, to) => arr.slice(from, to).reduce((a, b) => a + b, 0);
+// const findEvenIndex = (arr) => arr.findIndex((el, i) => sum(arr, 0, i) === sum(arr, i + 1));
+
 findEvenIndex([1, 2, 3, 4, 3, 2, 1]); // Output 3
 findEvenIndex([1, 100, 50, -51, 1, 1]); // Output 1
 findEvenIndex([1, 2, 3, 4, 5, 6]); // Output -1
