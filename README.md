@@ -1,3 +1,3 @@
 ## Codewars
 
-Saving the katas
+Saving the katas (in python)
